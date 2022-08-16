@@ -11,12 +11,12 @@
 /*FONTS*/
 @font-face {
     font-family: 'PoppinsRegular';
-    src: url(font/PoppinsRegular.ttf);
+    src: url(assets/font/PoppinsRegular.ttf);
 }
 
 @font-face {
     font-family: 'PoppinsBold';
-    src: url(font/PoppinsBold.ttf);
+    src: url(assets/font/PoppinsBold.ttf);
 }
 
 /*RESET2*/
@@ -24,7 +24,7 @@
     bottom: 0; top: 0; left: 0; right: 0; top: 0; box-sizing:border-box;
     margin: 0; font-family:'PoppinsRegular'; padding: 0;
 }
-a{
+a:link,a:visited{
     text-decoration:none;
     cursor: pointer;
 }
@@ -88,8 +88,8 @@ body{
 /*HEADER*/
 .header-conteiner{
     display:flex;
-    justify-content: space-between;
-    margin:4rem 2rem;   
+    justify-content: center;
+    margin:12rem auto;  
 }
 
 .header-conteiner .header-text h1{
@@ -101,6 +101,7 @@ body{
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size:50px;
+    text-align:center;
     font-family:'PoppinsBold';
 
 }
@@ -120,6 +121,8 @@ body{
     display:flex;
     justify-content: center;
     margin:7em auto;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 .courses-conteiner{
@@ -135,7 +138,6 @@ body{
     border:1px solid transparent;
     border-image:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
     border-image-slice:1;
-    border-radius: .55em;
     padding:10px;
     position:sticky;
     cursor: pointer;
@@ -219,4 +221,70 @@ body{
     color:var(--textColor);
     margin-left: 6em;
     margin-top: -1em;
+}
+
+
+/*SOCIAL*/
+
+.social-conteiner{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.social-conteiner .social-card{
+    width: 700px;
+    height: 412px;
+    padding: 0;
+}
+
+.social-card .social-card-list-item{
+    padding:20px;
+    border-bottom:1px solid transparent;
+    border-image:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
+    border-image-slice:1;
+    display:flex;
+    flex-direction:row;
+}
+
+.facebook-logo,.youtube-logo,.twitter-logo,.linkedin-logo,.github-logo,.link-icon{
+    width: 34px;
+    height: 34px;
+}
+
+.social-card-list-item-name{
+    color:var(--textColor);
+    font-weight:200;
+    font-size:19px;
+    margin:2px 80px auto 7px;
+}
+
+#name2{
+    margin-top:8px;
+}
+
+#link-icon1{
+    transform:translateX(340px);
+}
+
+#link-icon2{
+    transform:translateX(360px);
+}
+
+#link-icon3{
+    transform:translateX(370px);
+}
+
+#link-icon4{
+    transform:translateX(355px);
+}
+
+#link-icon5{
+    transform:translateX(362px);
+}
+
+/*MOBILE VERSION*/
+
+@media  screen and (max-width:768px) {
+    
 }
