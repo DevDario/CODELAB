@@ -10,4 +10,4 @@ do mundo todo 🌏.
 [x] Gradiente no Texto
 
 ##O projeto CODELAB está online !
-[CODELAB](https://Codelab.vercell.app)
+[CODELAB](https://Codelab.vercel.app)
