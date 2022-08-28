@@ -302,7 +302,7 @@ body{
     display:flex;
     flex-direction:row;
     margin:0 auto;
-    gap:20px;
+    gap:30px;
 }
 
 .mobile-menu-conteiner img{
@@ -506,7 +506,7 @@ body{
         display:flex;
         flex-direction:row;
         margin:0 auto;
-        gap:10px;
+        gap:25px;
     }
 
     /*COMMUNITY*/
