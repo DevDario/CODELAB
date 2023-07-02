@@ -139,9 +139,11 @@ body{
     height: 340px;
     background-color:var(--cardColor);
     box-shadow: 2px 1px 2px rgba(0,0,0,0.42);
-    border:1px solid transparent;
     border-image:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
     border-image-slice:1;
+    background-clip: padding-box;
+    background-origin: border-box;
+    border-radius: 30px;
     padding:10px;
     position:sticky;
     cursor: pointer;
